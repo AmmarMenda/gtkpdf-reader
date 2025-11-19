@@ -4,8 +4,8 @@ To compile this application you need:<br>
 - gcc<br>
 <br>
 Use this command to compile this application:<br>
-gcc -o guf main.c $(pkg-config --cflags --libs gtk4 gio-2.0  mupdf)<br>
+gcc -o guf  main.c $(pkg-config --cflags --libs gtk4) -lmupdf -lm
 <br>
 This is how it looks<br>
 <br>
-<img width="751" height="674" alt="2025-07-14-59-1753781349-scrot" src="https://github.com/user-attachments/assets/47132304-c60e-4ba6-afc5-ac4f6d0af5b4" />
+<img width="1366" height="768" alt="2025-11-23-54-1763576660-scrot" src="https://github.com/user-attachments/assets/361beb43-1cf4-43c9-b0b1-764441f10f2b" />
